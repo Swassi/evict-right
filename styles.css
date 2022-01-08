@@ -13,3 +13,13 @@ nav { float: right; margin-top: 32px; }
 nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 100%; }
 
 nav li a { color: black; text-decoration: none; }
+
+section.aboutus { width: 940px; height: 370px; padding: 5px 0; margin: 0 auto; }
+
+section.aboutus h1 { font-size: 200%; text-align: center; margin: 20px auto; text-decoration: underline; }
+
+section.aboutus aside img { width: 400px; height: 300px; float: right; margin-bottom: -30px; }
+
+.aboutuscontent { width: 390px; padding-top: 5px; color: black; float: left; }
+
+.aboutuscontent p { margin-bottom: 60%; float: left; font-size: 16px; }
