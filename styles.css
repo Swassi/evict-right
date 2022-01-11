@@ -2,24 +2,22 @@
 
 body { margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;}
-
+/* Nav Bar */
 header { width: 100%; height: 100px; background: slategray; padding: 5px 0; }
-
 #logo img { width: 200px; padding-top: 6px; float: left; margin-left: 10px; }
 .container { width: 940px; height: 100%; margin: 0 auto; }
-
 nav { float: right; margin-top: 32px; }
-
 nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 100%; }
-
 nav li a { color: black; text-decoration: none; }
-
+/* About Us Section */
 section.aboutus { width: 940px; height: 370px; padding: 5px 0; margin: 0 auto; }
-
 section.aboutus h1 { font-size: 200%; text-align: center; margin: 20px auto; text-decoration: underline; }
-
 section.aboutus aside img { width: 400px; height: 300px; float: right; margin-bottom: -30px; }
-
 .aboutuscontent { width: 390px; padding-top: 5px; color: black; float: left; }
-
 .aboutuscontent p { margin-bottom: 60%; float: left; font-size: 16px; }
+/* Why Us Section */
+section.whyus { width: 940px; height: 370px; padding: 5px 0; margin: 0 auto; }
+section.whyus h1 { font-size: 200%; text-align: center; margin: 15px auto; text-decoration: underline; margin-right: 350px;}
+.whyuscontent { width: 390px; padding-top: 5px; color: black; float: right; }
+.whyuscontent p { margin-bottom: 60%; float: right; font-size: 16px; margin-top: 50px; }
+section.whyus aside img { width: 400px; height: 300px; float: left; margin-bottom: -30px; margin-top: -120px; }
