@@ -10,14 +10,25 @@ nav { float: right; margin-top: 32px; }
 nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 100%; }
 nav li a { color: black; text-decoration: none; }
 /* About Us Section */
-section.aboutus { width: 940px; height: 370px; padding: 5px 0; margin: 0 auto; }
+section.aboutus { width: 100%; height: 400px; padding: 5px 0; margin: 0 auto; }
 section.aboutus h1 { font-size: 200%; text-align: center; margin: 20px auto; text-decoration: underline; }
-section.aboutus aside img { width: 400px; height: 300px; float: right; margin-bottom: -30px; }
+section.aboutus aside img { width: 400px; height: 300px; float: right; margin-bottom: -30px; margin-top: 20px; margin-right: 50px; }
 .aboutuscontent { width: 390px; padding-top: 5px; color: black; float: left; }
-.aboutuscontent p { margin-bottom: 60%; float: left; font-size: 16px; }
+.aboutuscontent p { margin-bottom: 60%; float: left; font-size: 16px; margin-left: 50px;}
 /* Why Us Section */
-section.whyus { width: 940px; height: 370px; padding: 5px 0; margin: 0 auto; }
+section.whyus { width: 100%; height: 370px; padding: 5px 0; margin: 0 auto; }
 section.whyus h1 { font-size: 200%; text-align: center; margin: 15px auto; text-decoration: underline; margin-right: 350px;}
 .whyuscontent { width: 390px; padding-top: 5px; color: black; float: right; }
-.whyuscontent p { margin-bottom: 60%; float: right; font-size: 16px; margin-top: 50px; }
-section.whyus aside img { width: 400px; height: 300px; float: left; margin-bottom: -30px; margin-top: -120px; }
+.whyuscontent p { margin-bottom: 60%; float: right; font-size: 16px; margin-top: 60px; }
+section.whyus aside img { width: 400px; height: 300px; float: left; margin-bottom: -30px; margin-top: -110px; }
+/* Qualify Section */
+section.qualify { width: 100%; height: 400px; padding: 10px 0; }
+section.qualify h1 { text-align: center; text-decoration: underline; font-size: 200%; margin-left: 320px; }
+.qualifycontent { color: black; padding-top: 5px; float: left; width: 450px; margin-left: 20px; }
+.qualifycontent h2 { font: bold; text-decoration: underline; }
+.qualifycontent li { margin-left: -15px; }
+section.noeviction { width: 100%; height: 400px; padding: 10px 0; }
+.noevictioncontent { color: black; padding-top: 5px; float: right; width: 450px; margin-top: -280px; margin-right: 150px; }
+.noevictioncontent h2 { font: bold; text-decoration: underline; margin-right: 100px; }
+.noevictioncontent li { margin-right: 120px; }
+
