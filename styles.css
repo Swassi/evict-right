@@ -45,3 +45,5 @@ section.evictionservices { height: 400px; padding: 20px;  margin: 0 auto; }
 section.evictionservices h1 { font-size: 200%; text-align: center; text-decoration: underline; }
 .services { width: 800px; padding-top: 15px; }
 .services h3 { font-style: italic; } 
+/* Process */
+section.process img { align-items: center; }
