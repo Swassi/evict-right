@@ -26,3 +26,7 @@ Future Improvements:
 ![wireframe2](https://user-images.githubusercontent.com/94398075/149658737-93d4aeae-a219-418f-b6f9-ea7b2e6c0190.png)
 ![wireframe3](https://user-images.githubusercontent.com/94398075/149658738-84cd290a-9a31-4965-bd0f-86fe6af06118.png)
 ![wireframe4](https://user-images.githubusercontent.com/94398075/149658739-9b894423-f4a1-47f8-abdb-da481806801d.png)
+
+References
+
+Canva https://www.canva.com/ (for all images)
