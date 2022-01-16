@@ -52,8 +52,9 @@ section.evictionservices h1 { font-size: 200%; text-align: center; text-decorati
 /* Process */
 section.process img { align-items: center; }
 /* Contact Us */
-section.contactus h1 { text-decoration: underline; margin-left: 200px; }
-section.contactus aside img { width: 200px; height: 300px; }
-label { display: block; width: 200px; float: left; text-align: right; margin: 10px 5px; clear: left; }
+section.contactus img { width: 300px; height: 350px; margin-top: -20px;}
+section.contactus h1 { text-decoration: underline; margin-left: 430px; margin-top: 60px;}
+label { display: block; width: 200px; float: left; text-align: right; margin: 10px 5px; clear: left; margin-left: 250px; }
 input, select, textarea { margin: 10px 5px; vertical-align: middle; }
-#submit { margin: 200px; }
+#submit { vertical-align: middle; align-items: center; }
+#notice  { float: right; margin-right: 350px; }
