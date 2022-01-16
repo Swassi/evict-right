@@ -16,7 +16,7 @@ As a tenant/renter, I want to know the reasons why I could get evicted so that I
 
 Future Improvements:
 
-I would like to add a login portal for customers who have existing evictions. Where they can just login and search their case. It will have the most recent update on your eviction case. It will prevent unnecessary phone calls that might slow the person who is creating the eviction down.
+1. I would like to add a login portal for customers who have existing evictions. Where they can just login and search their case. It will have the most recent update on your eviction case. It will prevent unnecessary phone calls that might slow the person who is creating the eviction down.
 
 2. I would like to add multiple language options for those who primarily do not speak English.
 
