@@ -3,12 +3,16 @@
 body {margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;}
 /* Nav Bar */
-header { width: 100%; height: 100px; background: slategray; padding: 5px 0; }
+header { width: 100%; height: 100px; background: slategray; padding: 5px 0; display: flex; justify-content: flex-end; align-items: center; }
 #logo img { width: 200px; padding-top: 6px; float: left; margin-left: 10px; }
 .container { width: 940px; height: 100%; margin: 0 auto; }
-nav { float: right; margin-top: 32px; }
-nav li { display: inline; margin-right: 30px; font-weight: bold; font-size: 100%; }
-nav li a { color: black; text-decoration: none; }
+nav { float: right; margin-top: 32px; display: flex; justify-content: space-between; align-items: center; flex-direction: column; }
+nav li { display: inline-block; margin-right: 30px; font-weight: bold; font-size: 100%; list-style: none; flex: 3;} 
+nav li a { color: black; text-decoration: none; flex: 1; text-align: center;}
+nav li a:hover { color: white; }
+@media only screen and (min-width: 768px) {
+    nav { flex-direction: row; }
+  }
 /* Carousel Slider */
 .slider { overflow: hidden; height: 600px; }
 .slider figure div { float: left; width: 20%; }
@@ -48,6 +52,7 @@ section.evictionservices h1 { font-size: 200%; text-align: center; text-decorati
 /* Process */
 section.process img { align-items: center; }
 /* Contact Us */
+section.contactus h1 { text-decoration: underline; margin-left: 200px; }
 section.contactus aside img { width: 200px; height: 300px; }
 label { display: block; width: 200px; float: left; text-align: right; margin: 10px 5px; clear: left; }
 input, select, textarea { margin: 10px 5px; vertical-align: middle; }
