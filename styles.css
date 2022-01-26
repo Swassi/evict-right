@@ -3,7 +3,7 @@ body {margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;
 /* Nav Bar */
 header { width: 100%; background: slategray; padding: 5px 0; display: flex; justify-content: flex-end; align-items: center; }
 #logo img { width: 200px; padding-top: 6px; float: left; margin-left: 10px; }
-.container { width: 940px; height: 100%; margin: 0 auto; }
+.container { width: 940px; margin: 0 auto; }
 nav { float: right; margin-top: 32px; display: flex; justify-content: space-between; align-items: center; flex-direction: column; }
 nav li { display: inline-block; margin-right: 30px; font-weight: bold; font-size: 100%; list-style: none; flex: 3; } 
 nav li a { color: black; text-decoration: none; flex: 1; text-align: center;}
