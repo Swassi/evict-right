@@ -19,33 +19,42 @@
             </nav>
         </div>
     </header>
-        <!-- Contact Us Section -->
-        <h1>Contact Us</h1>
-        <section class="contactus">
-                <img src="./assets/notice.png" alt="notice" id="notice"/>
-                <form action="https://formspree.io/f/mnqwjjln" method="post">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" name="first name" required id="first-name"/>
-                    <br>
-                        <label for="phone-number">Number:</label>
-                        <input type="number" name="number" id="phone-number"/>
-                    <br>
-                        <label for="email-address">Email:</label>
-                        <input type="text" name="email" placeholder="enter valid email address" required id="email-address"/>
-                    <br>
-                        <label for="rental-assistance">Did you apply for rental assistance?</label>
-                        <select name="dropdown" id="rental-assistance">
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    <br>
-                        <label for="comment-box">Comment:</label>
-                        <textarea name="message" id="comment-box"></textarea>
-                    <br>
-                        <input type="submit" value="Send"/>
+    <!-- Contact Us Section -->
+    <h1>Contact Us</h1>
+    <section class="contactus">
+        <img src="./assets/notice.png" alt="notice" id="notice"/>
+        <form action="https://formspree.io/f/mnqwjjln" method="post">
+            <div class="form-row">
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first name" required id="first-name"/>
+            </div>
+            <div class="form-row">
+                <label for="phone-number">Number:</label>
+                <input type="number" name="number" id="phone-number"/>
+            </div>
+            <div class="form-row">
+                <label for="email-address">Email:</label>
+                <input type="text" name="email" placeholder="enter valid email address" required id="email-address"/>
+            </div>
+            <div class="form-row">
+                <label for="rental-assistance">Did you apply for rental assistance?</label>
+            </div>
+            <div class="form-row">
+                <select name="dropdown" id="rental-assistance">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="comment-box">Comment:</label>
+                <textarea name="message" id="comment-box"></textarea>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Send"/>
+            </div>
         </form>
-        </section>
-        <!-- Footer -->
+    </section>
+    <!-- Footer -->
     <footer>
         <div class="container">
             <h4>Copyright &#169; 2022 Evict Right - All Rights Reserved.</h4>
