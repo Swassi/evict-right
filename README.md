@@ -1,5 +1,7 @@
 Janet Santana
 
+Hosting Link:  https://swassi.github.io/evict-right/
+
 Intro:
 
 Evict Right represents a basic website that was created using HTML and CSS. Although I am still learning how to code, I did not use bootstrap. I was attempting to code everything from scratch. 
