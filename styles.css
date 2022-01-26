@@ -37,8 +37,9 @@ h1 { text-align: center; text-decoration: underline; }
 /* Eviction Services Page  */
 section.evictionservices { height: 550px; padding: 20px;  margin: 0 auto; }
 section.evictionservices h1 { font-size: 200%; text-align: center; text-decoration: underline; }
-.services { width: 800px; padding-top: 15px; margin-bottom: 50px;}
-.services h3 { font-style: italic; } 
+.services { width: 1000px; padding-top: 15px; margin-bottom: 50px;}
+.services img { width: 350px; height: 450px; margin-top: 5px; margin-bottom: 40px; float: right; margin-left: 20px; }
+.services h3 { font-style: italic; }
 /* Eviction Process Page */
 section.process img { align-items: center; }
 /* Contact Us Page */
