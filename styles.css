@@ -8,6 +8,7 @@ nav { float: right; margin-top: 32px; display: flex; justify-content: space-betw
 nav li { display: inline-block; margin-right: 30px; font-weight: bold; font-size: 100%; list-style: none; flex: 3; } 
 nav li a { color: black; text-decoration: none; flex: 1; text-align: center;}
 nav li a:hover { color: white; }
+ul.topnav li.dropdownIcon { display: none; }
 /* Carousel Slider */
 .slider { overflow: hidden; height: 550px; }
 .slider figure div { float: left; width: 20%; }
@@ -53,3 +54,12 @@ input, select, textarea { margin: 10px 5px; vertical-align: middle; align-items:
 #notice  { float: right; margin-right: 350px; }
 /* Footer */
 footer { width: 100%; height: 80px; background: slategray; padding: 20px 0; display: flex; justify-content: flex-end; text-align: center; }
+/* Mobile */
+@media screen and (max-width:680px) {
+    ul.topnav li { display: none;}
+    ul.topnav li.dropdownIcon { display: block; float: right; }
+    ul.topnav.responsive li.dropdownIcon { position: absolute; top: 0; left: 0;  }
+    ul.topnav.responsive { position: relative; }
+    ul.topnav.responsive li { display: inline; float: none; }
+    ul.topnav.responsive li a { display: block; text-align: left; }
+}
